@@ -1,33 +1,29 @@
-/* Classes */
+body {
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #ffffffb6;
+  }
+  .conteiner {
+    min-height: 800px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-top: -1.5em; 
+  }
+  .formulario {
+    text-decoration: black;
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .botao {
+    text-decoration: black;
+    margin-left: 25rem;
+    margin-top: 2rem;
+  }
 
-.container-sm {
+  .nav {
     background-color: rgb(33, 224, 192);
-    width: 200px;
-    border-radius: 10px;
-    padding: 10px;
-    display: block;
-    color: cornflowerblue;
-}
-
-#visualizar {
-    /* margin-top: 5px; */
-    margin-bottom: 10px;
-}
-
-.nav {
-    background-color: rgb(33, 224, 192);
+    padding-left: 850px;
     margin-bottom: 30px;
-    padding-left: 780px;
 }
-
-.form-control {
-    width: 100%;
-}
-
-.btn {
-    width: 100%;
-    border: solid 2px;
-}
-
-/* Tags */
-

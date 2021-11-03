@@ -1,26 +1,18 @@
-function calcular(){
+var frmModelo;
+var frmValor= parseInt();
+var divMostrar;
 
-    var vValor = document.getElementById("valor").
-    value;
+//Botao cadastrar add evento
+btnSimular.addEventListener('click', function(){
+    frmModelo = modelo.value 
+    frmValor = valor.value
+    divMostrar = document.getElementById('calculo')
+   
+    divMostrar.innerHTML = `
+        <div>Modelo: <strong>${frmModelo}</strong></div>
+        <div>Valor: <strong>${frmValor}</strong></div>
+        <div>Valor da entrada: <strong>${frmValor/2}</strong></div>
+        <div>60 Parcelas no valor de R$: <strong>${((((frmValor/2)/60)*0.70)+((frmValor/2)/60)).toFixed(2)}</strong></div>
+  `
     
-    
-    var cEntrada = vValor*50;
-    var pEntrada = cEntrada/100;
-    var cParcela = vValor-pEntrada;
-    var pParcela = cParcela/60;
-    var cjuros = pParcela*70;
-    var pjuros = cjuros/100+pParcela;
-    
-    
-    alert("Valor da entrada:"+pEntrada)
-    alert("+ 60 de R$:"+pjuros)
-
-
-    let result = document.getElementById("result")
-}
-
-
-/* function mostrarTexto () {
- visualizar.addEventListener('click', function())
-}
- */
+})
