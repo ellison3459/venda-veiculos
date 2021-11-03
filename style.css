@@ -20,10 +20,14 @@ body {
     text-decoration: black;
     margin-left: 25rem;
     margin-top: 2rem;
+    padding-right: 80px;
   }
 
   .nav {
     background-color: rgb(33, 224, 192);
-    padding-left: 850px;
+    padding-left: 40%;
     margin-bottom: 30px;
 }
+ .form-group{
+  padding-left: 40px;
+ }
