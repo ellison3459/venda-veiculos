@@ -4,11 +4,12 @@ body {
     background-color: #ffffffb6;
   }
   .conteiner {
-    min-height: 800px;
-    max-width: 1024px;
-    margin: 0 auto;
-    padding-top: 100px;
-    margin-top: -1.5em; 
+    width: 1024px;
+    border-radius: 10px;
+    padding-left: 100px;
+   
+    color: cornflowerblue;
+}
   }
   .formulario {
     text-decoration: black;
@@ -28,6 +29,6 @@ body {
     padding-left: 40%;
     margin-bottom: 30px;
 }
- .form-group{
-  padding-left: 40px;
- }
+.form-control {
+  width: 100%;
+}
